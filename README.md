@@ -1,140 +1,63 @@
 # Subin Jose Y - Portfolio
 
-A modern, professional developer portfolio showcasing Flutter/mobile development expertise, built with Next.js and Tailwind CSS.
+Flutter Developer with 2+ years of experience building cross-platform mobile applications.
 
-![Portfolio Preview](public/images/profile.jpg)
+## About Me
 
-## Live Demo
+Passionate Flutter Developer based in Bangalore, specializing in creating performant, user-friendly apps using clean architecture principles and BLoC state management.
 
-[View Portfolio](https://subinjose11.github.io/Portfolio) *(Update with your deployed URL)*
+## Contact
 
-## Tech Stack
+- **Email:** subinjose911@gmail.com
+- **Phone:** +91 7548817911
+- **Location:** Bangalore, India
+- **GitHub:** [@subinjose11](https://github.com/subinjose11)
+- **LinkedIn:** [Subin Jose Y](https://www.linkedin.com/in/subin-jose-y/)
 
-- **Framework:** Next.js 14 (App Router)
-- **Language:** TypeScript
-- **Styling:** Tailwind CSS
-- **Animations:** Framer Motion
-- **Icons:** Lucide React
-- **Blog:** MDX (next-mdx-remote)
-- **Contact Form:** Resend (email API)
+## Skills
 
-## Features
+**Mobile Development:** Flutter, Dart, BLoC Pattern, Clean Architecture, iOS, Android
 
-- Responsive design for all screen sizes
-- Dark theme with modern UI
-- Animated sections with Framer Motion
-- MDX-powered blog with syntax highlighting
-- Contact form with email integration
-- Smooth scroll navigation
-- SEO optimized
-- Circular profile photo with animated gradient border
+**Backend & APIs:** REST APIs, Firebase, Firestore, GraphQL
 
-## Sections
+**Databases:** Hive, Isar Database, SQLite
 
-- **Hero** - Introduction with animated background and social links
-- **About** - Bio, tech stack, and stats
-- **Skills** - Categorized technical skills with icons
-- **Projects** - Featured projects with links
-- **Experience** - Work timeline and education
-- **Contact** - Contact form and information
-- **Blog** - Technical articles and tutorials
-- **Resume** - Detailed resume with PDF download
+**Tools:** Git, Android Studio, VS Code, Xcode, Figma, Postman
 
-## Getting Started
+## Experience
 
-### Prerequisites
+### Software Engineering Analyst - TechJays
+*Oct 2024 - Present | Remote*
+- Architecting cross-platform mobile applications using Flutter
+- Implementing clean architecture and BLoC state management
+- Managing end-to-end deployment for iOS and Android
 
-- Node.js 18+
-- npm or yarn
+### Flutter Developer Intern - TechJays
+*Mar 2024 - Sep 2024 | Remote*
+- Developed mobile applications under senior developer guidance
+- Participated in code reviews and agile development processes
 
-### Installation
+### QC Analyst - Caponex Labs
+*Mar 2022 - Aug 2023 | India*
+- Performed quality control analysis and testing
 
-1. Clone the repository:
-```bash
-git clone https://github.com/subinjose11/Portfolio.git
-cd Portfolio
-```
+## Projects
 
-2. Install dependencies:
-```bash
-npm install
-```
+### Bracketology TV
+Fantasy sports gaming platform for reality TV shows with multi-show support and real-time automated scoring.
+- **Tech:** Flutter, BLoC, Clean Architecture, Isar Database
+- **App Store:** [View on App Store](https://apps.apple.com/us/app/bracketology/id6463115555)
+- **Rating:** 3.8/5 stars
 
-3. Run the development server:
-```bash
-npm run dev
-```
+### Lifewink
+Mobile application with focus on feature development and comprehensive testing.
+- **Tech:** Flutter, Dart
 
-4. Open [http://localhost:3000](http://localhost:3000) in your browser.
+## Education
 
-## Project Structure
+- **MSc. Chemistry** - Scott Christian College, Kanyakumari (2019 - 2021)
+- **BSc. Chemistry** - Scott Christian College, Kanyakumari (2016 - 2019)
 
-```
-portfolio/
-├── app/                    # Next.js App Router pages
-│   ├── layout.tsx          # Root layout with metadata
-│   ├── page.tsx            # Home page
-│   ├── blog/               # Blog pages
-│   ├── resume/             # Resume page
-│   └── api/contact/        # Contact form API endpoint
-├── components/
-│   ├── layout/             # Header, Footer
-│   ├── sections/           # Hero, About, Skills, Projects, etc.
-│   └── ui/                 # Reusable UI components
-├── content/
-│   ├── projects.ts         # Project data
-│   └── blog/               # MDX blog posts
-├── lib/                    # Utility functions
-└── public/                 # Static assets (images, resume PDF)
-```
+## Certification
 
-## Customization
-
-### Profile Information
-- `components/sections/About.tsx` - Bio and personal info
-- `components/sections/Experience.tsx` - Work history and education
-- `content/projects.ts` - Your projects
-- `app/resume/page.tsx` - Resume details
-
-### Adding Blog Posts
-Create new `.mdx` files in `content/blog/` with frontmatter:
-```mdx
----
-title: "Your Post Title"
-date: "2024-01-01"
-excerpt: "A brief description"
-tags: ["Flutter", "Dart"]
----
-
-Your content here...
-```
-
-### Assets
-- Profile photo: `public/images/profile.jpg`
-- Resume PDF: `public/resume.pdf`
-
-## Deployment
-
-### Vercel (Recommended)
-
-1. Push your code to GitHub
-2. Import the repository on [Vercel](https://vercel.com)
-3. Add environment variables if needed
-4. Deploy!
-
-### Environment Variables
-
-| Variable | Description | Required |
-|----------|-------------|----------|
-| RESEND_API_KEY | Resend API key for contact form emails | Optional |
-
-## Author
-
-**Subin Jose Y**
-- GitHub: [@subinjose11](https://github.com/subinjose11)
-- LinkedIn: [Subin Jose Y](https://www.linkedin.com/in/subin-jose-y/)
-- Email: subinjose911@gmail.com
-
-## License
-
-MIT License
+- **Python Programming** - Besant Technologies, Chennai (Sep 2023 - Feb 2024)
