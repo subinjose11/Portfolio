@@ -1,6 +1,12 @@
 # Subin Jose Y - Portfolio
 
-A modern, professional developer portfolio showcasing Flutter/mobile development expertise, built with Next.js 14+ and Tailwind CSS.
+A modern, professional developer portfolio showcasing Flutter/mobile development expertise, built with Next.js and Tailwind CSS.
+
+![Portfolio Preview](public/images/profile.jpg)
+
+## Live Demo
+
+[View Portfolio](https://subinjose11.github.io/Portfolio) *(Update with your deployed URL)*
 
 ## Tech Stack
 
@@ -11,6 +17,28 @@ A modern, professional developer portfolio showcasing Flutter/mobile development
 - **Icons:** Lucide React
 - **Blog:** MDX (next-mdx-remote)
 - **Contact Form:** Resend (email API)
+
+## Features
+
+- Responsive design for all screen sizes
+- Dark theme with modern UI
+- Animated sections with Framer Motion
+- MDX-powered blog with syntax highlighting
+- Contact form with email integration
+- Smooth scroll navigation
+- SEO optimized
+- Circular profile photo with animated gradient border
+
+## Sections
+
+- **Hero** - Introduction with animated background and social links
+- **About** - Bio, tech stack, and stats
+- **Skills** - Categorized technical skills with icons
+- **Projects** - Featured projects with links
+- **Experience** - Work timeline and education
+- **Contact** - Contact form and information
+- **Blog** - Technical articles and tutorials
+- **Resume** - Detailed resume with PDF download
 
 ## Getting Started
 
@@ -23,8 +51,8 @@ A modern, professional developer portfolio showcasing Flutter/mobile development
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
-cd portfolio
+git clone https://github.com/subinjose11/Portfolio.git
+cd Portfolio
 ```
 
 2. Install dependencies:
@@ -32,22 +60,12 @@ cd portfolio
 npm install
 ```
 
-3. Create a `.env.local` file for environment variables:
-```bash
-cp .env.example .env.local
-```
-
-4. (Optional) Add your Resend API key for the contact form:
-```
-RESEND_API_KEY=your_resend_api_key_here
-```
-
-5. Run the development server:
+3. Run the development server:
 ```bash
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ## Project Structure
 
@@ -65,49 +83,35 @@ portfolio/
 │   └── ui/                 # Reusable UI components
 ├── content/
 │   ├── projects.ts         # Project data
-│   ├── testimonials.ts     # Testimonials data
 │   └── blog/               # MDX blog posts
 ├── lib/                    # Utility functions
-└── public/                 # Static assets
+└── public/                 # Static assets (images, resume PDF)
 ```
-
-## Features
-
-- Responsive design for all screen sizes
-- Dark/Light mode toggle
-- Animated sections with Framer Motion
-- MDX-powered blog
-- Contact form with email integration
-- SEO optimized
-- Smooth scroll navigation
 
 ## Customization
 
 ### Profile Information
-Update the following files to customize the portfolio:
+- `components/sections/About.tsx` - Bio and personal info
+- `components/sections/Experience.tsx` - Work history and education
 - `content/projects.ts` - Your projects
-- `content/testimonials.ts` - Testimonials
 - `app/resume/page.tsx` - Resume details
-- Component files for contact info, social links, etc.
 
 ### Adding Blog Posts
-Create new `.mdx` files in `content/blog/` with the following frontmatter:
+Create new `.mdx` files in `content/blog/` with frontmatter:
 ```mdx
 ---
 title: "Your Post Title"
 date: "2024-01-01"
 excerpt: "A brief description"
-tags: ["tag1", "tag2"]
+tags: ["Flutter", "Dart"]
 ---
 
 Your content here...
 ```
 
-### Adding Profile Photo
-Replace or add your profile photo at `public/images/profile.jpg`
-
-### Adding Resume PDF
-Add your resume PDF at `public/resume.pdf`
+### Assets
+- Profile photo: `public/images/profile.jpg`
+- Resume PDF: `public/resume.pdf`
 
 ## Deployment
 
@@ -115,21 +119,21 @@ Add your resume PDF at `public/resume.pdf`
 
 1. Push your code to GitHub
 2. Import the repository on [Vercel](https://vercel.com)
-3. Add environment variables (RESEND_API_KEY if using contact form)
+3. Add environment variables if needed
 4. Deploy!
 
-### Manual Build
-
-```bash
-npm run build
-npm start
-```
-
-## Environment Variables
+### Environment Variables
 
 | Variable | Description | Required |
 |----------|-------------|----------|
-| RESEND_API_KEY | Resend API key for contact form emails | No (form works without it, logs to console) |
+| RESEND_API_KEY | Resend API key for contact form emails | Optional |
+
+## Author
+
+**Subin Jose Y**
+- GitHub: [@subinjose11](https://github.com/subinjose11)
+- LinkedIn: [Subin Jose Y](https://www.linkedin.com/in/subin-jose-y/)
+- Email: subinjose911@gmail.com
 
 ## License
 
